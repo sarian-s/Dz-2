@@ -134,5 +134,6 @@ class ChangeTextTest {
             UiSelector().resourceId("ru.netology.testing.uiautomator:id/text")
         ).text
         assertEquals(result, textToSet);
+        Thread.sleep(5000);
     }
 }
